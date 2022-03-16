@@ -1,0 +1,104 @@
+.feature-image {
+    width: 100%;
+    max-height: 900;
+    object-fit: cover;
+    object-position: center;
+}
+
+.jumbotron {
+    font-size: 20px;
+    padding: 60px;
+    background-color: skyblue;
+    text-align: center;
+    color: snow;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+nav {
+    background-color: mediumturquoise;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+}
+
+header {
+    display: inline;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    color: black;
+    padding: 5px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+footer {
+    font-size: x-large;
+    background-color: tomato;
+    color: azure;
+    text-align: center;
+}
+
+.main {
+    padding: 20px;
+    overflow: auto;
+}
+
+.transform {
+    text-transform: capitalize;
+}
+
+.aside {
+    font-size: medium;
+    color: black;
+    text-align: left;
+    box-sizing: border-box;
+}
+
+.table {
+    text-align: center;
+    background-position: center;
+    background-color: fuchsia;
+    box-sizing: border-box;
+}
+
+.card {
+    box-shadow: 0 0 8px 4px rgba(0.2, 0, 0.2, 0.2);
+    border-radius: 5px;
+    padding: 20PX;
+    margin: 20px 15px;
+    height: auto;
+    max-width: 100%;
+}
+
+.center2 {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+.box {
+    width: fit-content;
+    border: 4px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.p {
+    font-size: x-large;
+}
